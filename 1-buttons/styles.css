@@ -1,0 +1,160 @@
+.Container{
+    width:80%;
+    height: 80vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr ;
+    
+}
+
+.DivContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border:1px solid black;
+}
+
+#easy1_1 #easy1_2 #easy1_3 #easy2_1 #easy2_2 #easy2_3{
+    align-self:flex-start;
+}
+
+
+.easy1_1{
+    width:250px;
+    height: 100px;
+    border-radius: 50px;
+    border:black 2px solid;
+    font-size: 25px;
+    color:rgb(6, 6, 46);
+    background-color: rgb(253, 252, 252);
+    align-self: center;
+}
+
+.easy1_2{
+    width:175px;
+    height: 85px;
+    border-radius: 25px;
+    border:black 2px solid;
+    font-size: 25px;
+    color:rgb(239, 239, 243);
+    background-color: rgb(20, 7, 92);
+    align-self: center;
+}
+
+
+
+.easy1_3{
+    width:150px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 25px;
+    color:white;
+    background-color: rgb(6, 6, 234);
+    align-self: center;
+}
+
+.easy2_1{
+    width:150px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:white;
+    background-color: rgb(23, 23, 246);
+    align-self: center;
+}
+
+.easy2_2{
+    width:200px;
+    height: 100px;
+    border-radius: 25px;
+    border:lightgray 1px solid;
+    font-size: 25px;
+    color:rgb(14, 14, 64);
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.easy2_3{
+    width:180px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:white;
+    background: linear-gradient(135deg, #8a23b7, #ed07ca);
+    align-self: center;
+}
+
+.mid1{
+    width:200px;
+    height: 90px;
+    border-radius: 10px;
+    border:5px rgb(223, 73, 186) solid;
+    font-size: 25px;
+    color:white;
+    background: rgb(20, 5, 55);
+    align-self: center;
+    transition: .5s;
+}
+
+.mid1:hover{
+    
+    cursor:grab;
+    background: linear-gradient(135deg, #d02f0f, #ed07ca);
+}
+
+.mid2{
+    width:250px;
+    height: 100px;
+    border-radius: 50px;
+    border:blue 3px solid;
+    font-size: 25px;
+    color:blue;
+    background-color:white;
+    align-self: center;
+    transition: all .5s;
+}
+
+.mid2:hover{
+    letter-spacing: .25em;
+    cursor:grab;
+    background: blue;
+    color:white;
+    
+   
+   
+}
+
+.mid2 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+.mid2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .mid2:hover span {
+    padding-right: 25px;
+  }
+  
+  .mid2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.mid3{
+    width:180px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:white;
+    background: linear-gradient(135deg, #8a23b7, #ed07ca);
+    align-self: center;
+}
