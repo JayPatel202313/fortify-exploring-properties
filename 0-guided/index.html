@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="/0-guided/styles/styles.css">
 </head>
 <body>
-    <button class="button" type="button"> Practice Button </button>
+    <p id="test"> </p>
+    <button class="button" onclick="buttonClicked()" type="button"> Practice Button </button>
+
+    <script>
+        function buttonClicked(){
+            document.getElementById('test').innerHTML = "Hello, you clicked the button!";
+        }
+    </script>
 </body>
 </html>
